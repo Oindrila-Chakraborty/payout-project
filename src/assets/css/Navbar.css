@@ -1,0 +1,137 @@
+/* navbar */
+.navbar-container {
+	height: 100%;
+	width: 224px;
+	background-color: #1E2640;
+	padding: 16px 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 16px;
+	flex: 1 0 0;
+}
+
+.main-container>.dashboard-container {
+	height: 100%;
+	width: 1216px;
+}
+
+.navbar-container > .navbar-branding {
+	display: flex;
+	padding: 0 8.5px;
+	width: 192px;
+	align-items: center;
+	gap: 12px;
+	position: relative;
+}
+
+.navbar-container > .navbar-branding > .brand-logo {
+	width: 49px;
+	height: 39px;
+	border-radius: 4px;
+	background: url('../images/brand-logo.png');
+	background-size: cover; 
+  	background-position: center; 
+}
+.brand-details{
+	align-self: stretch;
+	width: 98px;
+	height: auto;
+}
+
+ .brand-details > .brand-name{
+	color: var(--white-01);
+	font-family: 'galano grotesque medium',sans-serif;
+	font-size: 15px;
+	font-weight: var(--font-weight-01);
+	line-height: 22px; 
+}
+
+ .brand-details > .store-link{
+	padding-top: 4px;
+	color: var(--white-01);
+	opacity: 0.8;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	text-decoration-line: underline;
+}
+
+.navbar-branding > .navbar-arrow{
+	margin-left: 12px;
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+}
+
+.nav-items-list{
+	width: 100%;
+	margin: 24px 0 16px 0;
+	display: flex;
+	align-items: flex-start !important;
+	flex-direction: column;
+	gap: 4px;
+	flex: 1 0 0;
+	color: var(--white-01);
+	opacity: 0.8;
+}
+
+.nav-item{
+	display: flex;
+	width: 208px;
+	padding: 8px 16px;
+	align-items: flex-start;
+	gap: 12px;
+	border-radius: 4px;
+}
+
+.clicked{
+	background: rgba(255, 255, 255, 0.10);
+}
+
+.nav-item-icon{
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+}
+.navbar-bottom{
+	display: flex;
+	width: 192px;
+	padding: 6px 12px;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 4px;
+	background: var(--grey-04);
+}
+.navbar-bottom > .bottom-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2px;
+	color: var(--white-01);
+}
+.navbar-bottom > .bottom-text > .title{
+	opacity: 0.8;
+	font-family: 'galano grotesque';
+	font-size: 13px;
+	
+	font-weight: 400;
+	line-height: 16px;
+}
+.navbar-bottom > .bottom-text > .subtitle{
+	font-family: 'galano grotesque medium';
+	font-size: 16px;
+	font-weight: var(--font-weight-01);
+	line-height: 24px;
+}
+.navbar-bottom  > .bottom-icon{
+	width: 36px;
+	height: 36px;
+	display: flex;
+	padding: 6px;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.10);
+}

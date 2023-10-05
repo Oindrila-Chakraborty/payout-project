@@ -1,0 +1,73 @@
+:root {
+	--white-01: #FFF;
+	--white-02: #D9D9D9;
+	--white-03: #F2F2F2;
+	--white-04:#E6E6E6;
+
+	--black-02: #1A181E;
+
+	--blue-01: #146EB4;
+	--blue-02:#0E4F82;
+
+	--grey-01: #4D4D4D;
+	--grey-02:#808080;
+	--grey-03:#999;
+	--grey-04:#353C53;
+
+	--green-01:#17B31B;
+
+	--font-weight-01: 500;
+	--font-weight-04: 400;
+
+	--padding-6:6px;
+	--padding-8:8px;
+	--padding-10:10px;
+	--padding-12:12px;
+	--padding-16:16px;
+	--padding-20:20px;
+  }
+
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'galano grotesque';
+	src: url('./assets/fonts/GalanoGrotesqueRegular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'galano grotesque medium';
+	src: url('./assets/fonts/GalanoGrotesqueMedium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: 'galano grotesque', sans-serif;
+	background-color: #FAFAFA;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.main-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
