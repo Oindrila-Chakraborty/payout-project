@@ -1,7 +1,7 @@
 export default [
     {
         id:1,
-        icon:'src/assets/images/icon1.svg',
+        icon:'icon1.svg',
         label:'Home'
     },
     {

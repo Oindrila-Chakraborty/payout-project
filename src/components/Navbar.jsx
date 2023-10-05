@@ -10,7 +10,7 @@ function Navbar(){
     return (
     <div className={`nav-item ${val.label =='Payouts' ? 'clicked':''}`}>
         <div className='nav-item-icon'>
-            <img src={val.icon} />
+            <img src={`./src/assets/images/${val.icon}`} />
         </div>
         <span>{val.label}</span>
     </div>
