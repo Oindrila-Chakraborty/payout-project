@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import helpicon from '../assets/images/Help.svg'
 import searchicon from '../assets/images/search.svg'
-import menuicon from '../assets/images/menu.svg'
+import menuicon from '../assets/images/Menu.svg'
 import group from '../assets/images/Group.svg'
 import ellipse from '../assets/images/Ellipse 2.svg'
 import arrow from '../assets/images/arrow.png';
