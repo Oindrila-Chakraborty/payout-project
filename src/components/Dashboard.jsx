@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import helpicon from '../assets/images/help.svg'
+import helpicon from '../assets/images/Help.svg'
 import searchicon from '../assets/images/search.svg'
 import menuicon from '../assets/images/menu.svg'
 import group from '../assets/images/Group.svg'
