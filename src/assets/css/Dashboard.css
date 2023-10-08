@@ -1,7 +1,7 @@
 /* dashboard */
 .dashboard-container > .topbar{
 	display: flex;
-	width: 1216px;
+	width: 85vw;
 	padding: var(--padding-8) 32px;
 	align-items: center;
 	gap: 16px;
@@ -106,11 +106,12 @@
 
 .dashboard{
 	display: flex;
-	width: 1152px;
+	width: 81vw;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 32px;
 	margin:  20px 32px;
+	overflow-x: hidden;
 }
 .dashboard > .overview-section{
 	display: flex;
@@ -118,13 +119,14 @@
 	align-items: flex-start;
 	gap: 24px;
 	align-self: stretch;
+	width: 100%;
 }
 .overview-section > .heading{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	align-self: stretch;
-	width: 1152px;
+	width: 100%;
 	height: 30px;
 }
 
@@ -317,6 +319,8 @@
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
+	width: 80vw;
+	margin: 10px;
 }
 
 .transaction-table > .table-heading{
@@ -362,7 +366,7 @@
 
 .transaction-table > .table-section{
 	display: flex;
-	width: 1152px;
+	width: 100%;
 	padding: var(--padding-12) var(--padding-12)  var(--padding-8) var(--padding-12);
 	flex-direction: column;
 	align-items: flex-end;
@@ -376,15 +380,25 @@
 	flex-direction: column;
 	align-items: flex-end;
 	gap: var(--spacing-spacing-05, 12px);
+	width: 100%;
 }
+
+.table-section > div {
+	width: 100%;
+}
+
+.table-section > div > table{
+	width: 100%;
+}
+
 
 .table-section > div > table > thead > .table-filters{
 	display: flex;
 	flex-direction: row;
-	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	align-self: stretch;
+	width: 100%;
 }
 
 .table-section > div > table > thead > .table-filters >.searchbar{
@@ -444,7 +458,7 @@
 
 .table-section > div > table > thead > .table-header{
 	display: flex;
-	width: 1128px;
+	width: 100%;
 	height: 35px;
 	padding: var(--padding-10) var(--padding-12);
 	justify-content: space-between;
@@ -473,7 +487,7 @@
 
 .table-section > div > table > tbody > div > tr{
 	display: flex;
-	width: 1128px;
+	width: 100%;
 	height: 44px;
 	padding: 14px var(--padding-12);
 	justify-content: space-between;
@@ -481,7 +495,7 @@
 }
 
 .table-section > div > table >  tbody > div > div{
-	width: 1104px;
+	width: 100%;
 	height: 1px;
 	background: var(--white-04);
 	margin-left: 12px;

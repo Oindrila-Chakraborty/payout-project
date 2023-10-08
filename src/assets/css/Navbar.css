@@ -1,7 +1,7 @@
 /* navbar */
 .navbar-container {
 	height: 100vh;
-	max-width: 224px;
+	max-width: 15vw;
 	background-color: #1E2640;
 	padding: 16px 10px;
 	display: flex;
@@ -13,14 +13,14 @@
 
 .main-container > .dashboard-container {
 	height: 100%;
-	width: 100%;
+	max-width: 85vw;
 }
 
 .navbar-container > .navbar-branding {
 	display: flex;
 	padding: 0 8.5px;
 	width: 192px;
-	align-items: center;
+	align-items: stretch;
 	gap: 12px;
 	position: relative;
 }
@@ -78,7 +78,7 @@
 
 .nav-item{
 	display: flex;
-	width: 208px;
+	width: 100%;
 	padding: 8px 16px;
 	align-items: flex-start;
 	gap: 12px;

@@ -166,7 +166,6 @@ function Dashboard(){
                         </div>
                     </div>
                     <div className='table-section'>
-                        <div></div>
                         <div>
                             <table>
                                 <thead>
