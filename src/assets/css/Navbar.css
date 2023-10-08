@@ -1,7 +1,7 @@
 /* navbar */
 .navbar-container {
-	height: 100%;
-	width: 224px;
+	height: 100vh;
+	max-width: 224px;
 	background-color: #1E2640;
 	padding: 16px 10px;
 	display: flex;
@@ -11,9 +11,9 @@
 	flex: 1 0 0;
 }
 
-.main-container>.dashboard-container {
+.main-container > .dashboard-container {
 	height: 100%;
-	width: 1216px;
+	width: 100%;
 }
 
 .navbar-container > .navbar-branding {
