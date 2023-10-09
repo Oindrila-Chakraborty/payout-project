@@ -47,10 +47,15 @@
 
 body {
 	margin: 0;
+	padding: 0;
 	font-family: 'galano grotesque', sans-serif;
 	background-color: #FAFAFA;
 	font-style: normal;
 	overflow: hidden;
+}
+
+.root{
+	box-sizing: border-box;
 }
 
 h1,
@@ -63,12 +68,14 @@ h6 {
 }
 
 .main-container {
-	width: 100vw;
+	box-sizing: border-box;
+	max-width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
+	overflow: hidden;
+	
 }
-
 
 
 

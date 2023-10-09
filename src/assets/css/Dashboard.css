@@ -1,7 +1,8 @@
 /* dashboard */
 .dashboard-container > .topbar{
+	flex: 1;
 	display: flex;
-	width: 85vw;
+	width: 100%;
 	padding: var(--padding-8) 32px;
 	align-items: center;
 	gap: 16px;
@@ -105,21 +106,22 @@
 }
 
 .dashboard{
+	height: inherit;
+	flex: 1;
 	display: flex;
-	width: 81vw;
+	margin: 30px ;
 	flex-direction: column;
-	align-items: flex-start;
-	gap: 32px;
-	margin:  20px 32px;
 	overflow-x: hidden;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
 }
 .dashboard > .overview-section{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	gap: 24px;
-	align-self: stretch;
 	width: 100%;
+	gap: 14px;
+	margin: 10px;
 }
 .overview-section > .heading{
 	display: flex;
@@ -138,8 +140,6 @@
 }
 
 .overview-section > .heading > .month-filter{
-	width: 137px;
-	height: 36px;
 	flex-shrink: 0;
 	border-radius: 4px;
 	border: 1px solid  var(--white-02);
@@ -167,8 +167,8 @@
 }
 
 .overview-section > .overview-cards{
-	width: 1152px;
-	height: 144px;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: flex-start;
 	gap: 20px;
@@ -187,10 +187,12 @@
 	border-radius: 8px;
 	background:  var(--blue-01);
 	position: relative;
+	width: 33.33%;
 }
 
 .overview-cards > .amount-pending{
 	display: flex;
+	width: 33.33%;
 	height: 118px;
 	padding: var(--padding-20);
 	flex-direction: column;
@@ -204,6 +206,7 @@
 
 .overview-cards > .amount-processed{
 	display: flex;
+	width: 33.33%;
 	height: 118px;
 	padding: var(--padding-20);
 	flex-direction: column;
@@ -271,7 +274,7 @@
 
 .next-payout > .footer {
 	display: flex;
-	width: 370.67px;
+	width: 100%;
 	padding: var(--padding-8) 24px;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -315,12 +318,14 @@
 }
 
 .transaction-table{
+	align-self: stretch;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
-	width: 80vw;
-	margin: 10px;
+	flex: 1;
+	box-sizing: border-box;
+	height: inherit;
 }
 
 .transaction-table > .table-heading{
@@ -488,7 +493,7 @@
 .table-section > div > table > tbody > div > tr{
 	display: flex;
 	width: 100%;
-	height: 44px;
+	height: 38px;
 	padding: 14px var(--padding-12);
 	justify-content: space-between;
 	align-items: center;
